@@ -1,1 +1,3 @@
-# mini-gare-caen-lisieux
+# Pixel Sync
+
+Automated data synchronization for embedded displays.
