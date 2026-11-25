@@ -18,6 +18,8 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - name: Tests
         run: python3 -m unittest -v test_extract.py
       - name: Extract
